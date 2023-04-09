@@ -2357,7 +2357,7 @@ i:before {
   overflow: hidden;
   position: relative;
   object-fit:cover;
-   object-position:50% 50%;
+  object-position:50% 50%;
 }
 
 .slider img{
@@ -2390,7 +2390,6 @@ i:before {
 }
 
 .slider_content .container .description{
-  text-transform: capitalize;
   font-size: 20px;
   text-align: center;
 }
@@ -2470,4 +2469,24 @@ iframe{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width:400px){
+  #slider_title{
+    font-size: 40px !important;
+  }
+
+  #slider_description{
+    font-size: 15px;
+  }
+
+  .bd-callout p{
+    font-size: 8px;
+    width: 100%;
+  }
+  
+ 
+  
 }

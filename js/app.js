@@ -38,13 +38,13 @@ const sliderData = [
     },
     {
         title : "caba immobilier",
-        description : "caba immobilier vous accompagne dans toutes transactions immobilières (Achat – Vente – Location – Echange)",
+        description : "Caba immobilier vous accompagne dans toutes transactions immobilières (Achat – Vente – Location – Echange)",
         src : "./img/new/imob.jpeg",
         link : "https://www.facebook.com/profile.php?id=100064823104193"
     },
     {
         title : "caba communication",
-        description :"C’est une agence de communications et de design qui mets en place les moyens de communications pour les entreprises et mêmes les particuliers en offrant les meilleures prestations",
+        description :"Caba communication est une agence de communications et de design qui mets en place les moyens de communications pour les entreprises et mêmes les particuliers en offrant les meilleures prestations",
         src : "./img/new/com2.jpeg",
         link : "https://www.facebook.com/profile.php?id=100087791501556"
     },
@@ -96,7 +96,7 @@ const init = () =>{
         }
     
     
-    },6000)
+    },7000)
 }
 
 const slide = () =>{
