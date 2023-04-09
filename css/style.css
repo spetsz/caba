@@ -1408,9 +1408,8 @@ i:before {
 }
 
 .touch_details h4 {
-  font-size: 30px;
+  font-size: 20px;
   color: #0b1033;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
@@ -1461,7 +1460,7 @@ i:before {
 
 .bd-callout p {
   color: #7c8d93;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 28px;
@@ -2447,4 +2446,28 @@ iframe{
   box-shadow: 21px 15px 59px -34px rgba(0,0,0,0.75);
   width: 100%;
   margin: 50px auto;
+}
+
+
+.contact_link{
+  text-decoration: none !important;
+  color: inherit;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact_link i {
+  font-size:  25px;
+}
+
+.fa-instagram:hover{
+  color : #d62976 !important
+}
+
+.bd-callout p{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
